@@ -31,7 +31,6 @@ For security reasons, the repository **does not include sensitive information**,
 * User-specific credentials
 * Any private authentication material
 
-These must be managed separately and securely on the system.
 
 ---
 
