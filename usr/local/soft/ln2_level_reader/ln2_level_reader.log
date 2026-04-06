@@ -1,0 +1,823 @@
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 47, in <module>
+    ln2_level_int = float(ln2_level_str)
+                    ^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 45, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 29, in _sendCmd
+    data   = s.recv(1024)
+             ^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 51, in <module>
+    time.sleep(10)
+KeyboardInterrupt
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Timeout on 192.168.0.201
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 58, in <module>
+    ln2_level_str = ln2_level[0]
+                    ~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 101] Network is unreachable
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/local/soft/NetDeviceCtrl/LN2level_reader.py", line 54, in <module>
+    ln2_level = ln._sendCmd("MEASure:N2:LEVel?",getResponse=True,verbose=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/soft/NetDeviceCtrl/NetDrivers/NetDevice.py", line 25, in _sendCmd
+    s.connect(self.address)
+OSError: [Errno 113] No route to host
+/usr/local/soft/NetDeviceCtrl/run_LN2level.sh: line 4: 31603 Terminated              python3 /usr/local/soft/NetDeviceCtrl/LN2level_reader.py

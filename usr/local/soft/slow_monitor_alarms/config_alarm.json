@@ -1,0 +1,141 @@
+{
+    "status": {
+        "ENABLE": "True",
+        "fridge_temp": "alarm_warm"
+    },
+    "alarm_cold": {
+        "minmax_alarm": {
+            "K4 pressure": {
+                "name": "K4 mbar",
+                "max": 970,
+                "min": -10,
+                "status": 0,
+                "time": 0,
+                "text": "alarm: injection pressure (K4) higher than 970 mbar"
+            },
+            "K5 pressure": {
+                "name": "K5 mbar",
+                "max": 950,
+                "min": -10,
+                "status": 0,
+                "time": 0,
+                "text": "alarm: injection pressure (K5) higher than 950 mbar"
+            },
+            "temp MC higher than 30 mK": {
+                "name": "FR MC",
+                "max": 0.03,
+                "min": 0.001,
+                "status": 1,
+                "time": [
+                    2026,
+                    4,
+                    3,
+                    15,
+                    36,
+                    1
+                ],
+                "text": "alarm: mixing chamber temperature higher than 30 mK"
+            },
+            "P1 pressure": {
+                "name": "P1 mbar",
+                "max": 0.1,
+                "min": -10,
+                "status": 0,
+                "time": 0,
+                "text": "alarm: outlet pressure (P1)  higher than 0.1 mbar"
+            },
+            "time update": {
+                "name": "heures",
+                "max": 300,
+                "min": -300,
+                "status": 0,
+                "time": 0,
+                "text": "alarm: log file are not updating"
+            }
+        },
+        "alarm_stale": {
+            "mc temperature stale": {
+                "name": "FR MC",
+                "status": 0,
+                "time": 0,
+                "text": "alarm: the temperature reading of the mixing chamber is not updating"
+            }
+        },
+        "status_alarm": {
+            "P1 valve status": {
+                "name": "VE1",
+                "status": 0,
+                "time": 0,
+                "text": "notification: P1 valve changed status"
+            },
+            "pulsetube": {
+                "name": "PT",
+                "status": 0,
+                "time": 0,
+                "text": "notification: Pulse tube status changed"
+            }
+        },
+        "comparison_alarm": {
+            "trap pressure": {
+                "name": "K5 mbar",
+                "name2": "K4 mbar",
+                "threshold": 40,
+                "status": 0,
+                "time": 0,
+                "text": "alarm: differential pressure at the trap higher than 10 mbar"
+            }
+        }
+    },
+    "alarm_warm": {
+        "minmax_alarm": {
+            "time update": {
+                "name": "heures",
+                "max": 300,
+                "min": -300,
+                "status": 0,
+                "time": 0,
+                "text": "alarm: log file are not updating"
+            }
+        },
+        "alarm_stale": {
+            "mc temperature stale": {
+                "name": "FR MC",
+                "status": 0,
+                "time": 0,
+                "text": "alarm: the temperature reading of the mixing chamber is not updating"
+            }
+        },
+        "status_alarm": {
+            "P1 valve status": {
+                "name": "VE1",
+                "status": 0,
+                "time": 0,
+                "text": "notification: P1 valve status changed"
+            },
+            "pulsetube": {
+                "name": "PT",
+                "status": 0,
+                "time": 0,
+                "text": "notification: Pulse tube status changed"
+            }
+        },
+        "crossing_alarm": {
+            "condensation notification": {
+                "name": "BM - MC K",
+                "cross": 4.5,
+                "delta": 0.07,
+                "status": 0,
+                "time": 0,
+                "text": "mixing chamber temperature at 4.5 K - condensation starting soon"
+            },
+            "turn off turbo": {
+                "name": "BM - MC K",
+                "cross": 50,
+                "delta": 0.07,
+                "status": 0,
+                "time": 0,
+                "text": "mixing chamber temperature at 50 K - turn off OVC pumping"
+            }
+        }
+    }
+}
