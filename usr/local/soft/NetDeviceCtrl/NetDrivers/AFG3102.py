@@ -1,0 +1,248 @@
+from .NetDevice import NetDevice
+
+default_pulse_params = {
+    "f_Hz" : 100.0,
+    "pw_us":  10.0,
+    "V_hi" :   5.0,
+    "V_lo" :   0.0,
+    "d_ms" :   5.0
+}
+
+class AFG3102(NetDevice):
+
+    ## Query if the output is currently on or off
+    def getOutputState(self, ch=1):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+
+        resp = self._sendCmd("OUTPut"+str(int(ch))+"?")
+        return resp[0] ## "1" or "0"
+
+    ## Set the output state (ON/OFF)
+    def setOutputState(self, ch=1, enable=True, confirm=True):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+
+        cmd  = "OUTPut" + str(int(ch))
+        arg  = "ON" if enable else "OFF"
+        cmd_str = " ".join( ( cmd, arg ) )
+        self._sendCmd(cmd_str, getResponse=False)
+        if confirm:
+            print("Output is:", "ON" if bool(int(self.getOutputState())) else "OFF")
+        return
+
+    ## Update the number of pulses to put out per cycle
+    def updateNperCycle(self, N_pls, ch=1, confirm=True):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+        ch_str = "SOURce" + str(int(ch))
+
+        N_str = "{:d}".format(N_pls)
+
+        self._sendCmd(ch_str+":BURSt:NCYCles "  + N_str, getResponse=False)
+        if confirm:
+            print("N cycles   [#]:", self._sendCmd(ch_str+":BURSt:NCYCles?") )
+
+        return
+
+    ## Update the frequency and derived parameters
+    def updateFrequency(self, freq_Hz, ch=1, confirm=True, burst=True):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+        ch_str = "SOURce" + str(int(ch))
+
+        ## Extract the pulse parameter dictionary and create strings
+        prd_sec = 1./freq_Hz
+        Npulses = int(freq_Hz)
+
+        f_str = "{:.3f}".format(freq_Hz) + "Hz"
+        P_str = "{:.3f}".format(prd_sec) + "s"
+        N_str = "{:d}".format(  Npulses)
+
+        ## Send the commands to set up the source
+        self._sendCmd(ch_str+":FREQuency:FIXed "+ f_str, getResponse=False)
+        # self._sendCmd(ch_str+":PULSe:PERiod "   + P_str, getResponse=False)
+        if burst:
+            self.updateNperCycle(Npulses, ch=ch, confirm=False)
+            # self._sendCmd(ch_str+":BURSt:NCYCles "  + N_str, getResponse=False)
+
+        ## Check the settings
+        if confirm:
+            print("Frequency [Hz]:", self._sendCmd(ch_str+":FREQuency:FIXed?") )
+            print("Period   [sec]:", self._sendCmd(ch_str+":PULSe:PERiod?") )
+            if burst:
+                print("N cycles   [#]:", self._sendCmd(ch_str+":BURSt:NCYCles?") )
+
+        return
+
+    ## Update the low level voltage for the waveform
+    def updateLoVoltage(self, V_lo, ch=1, confirm=True):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+        ch_str = "SOURce" + str(int(ch))
+
+        ## Send the commands to set up the source
+        Vl_str = "{:.3f}".format(V_lo) + "V"
+        self._sendCmd(ch_str+":VOLTage:LEVel:LOW "+Vl_str, getResponse=False)
+
+        ## Check the settings
+        if confirm:
+            print("Voltage low  [V]:", self._sendCmd(ch_str+":VOLTage:LEVel:LOW?") )
+
+        return
+
+    ## Update the high level voltage for the waveform
+    def updateHiVoltage(self, V_hi, ch=1, confirm=True):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+        ch_str = "SOURce" + str(int(ch))
+
+        ## Send the commands to set up the source
+        Vh_str = "{:.3f}".format(V_hi) + "V"
+        self._sendCmd(ch_str+":VOLTage:LEVel:HIGH "+Vh_str, getResponse=False)
+
+        ## Check the settings
+        if confirm:
+            print("Voltage high [V]:", self._sendCmd(ch_str+":VOLTage:LEVel:HIGH?") )
+
+        return
+
+    ## Update the pulse width
+    def updatePulseWidth(self, pw_us, ch=1, confirm=True):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+        ch_str = "SOURce" + str(int(ch))
+
+        ## Send the commands to set up the source
+        pw_str = "{:.3f}".format(pw_us) + "us"
+        self._sendCmd(ch_str+":PULSe:WIDTh "+pw_str, getResponse=False)
+
+        ## Check the settings
+        if confirm:
+            print("Pulse width:", self._sendCmd(ch_str+":PULSe:WIDTh?") )
+
+        return
+
+    ## Update the delay between the start of the awg time and first pulse
+    ## This doesn't interfere with triggering every second and allows a 
+    ## full pulse train to fill a full second without missed/overlapping windows
+    def updatePulseDelay(self, delay_ms, ch=1, confirm=True):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+        ch_str = "SOURce" + str(int(ch))
+
+        ## Send the commands to set up the source
+        pw_str = "{:.3f}".format(delay_ms) + "ms"
+        self._sendCmd(ch_str+":PULSe:DELay "+pw_str, getResponse=False)
+
+        ## Check the settings
+        if confirm:
+            print("Pulse delay:", self._sendCmd(ch_str+":PULSe:DELay?") )
+
+        return
+
+    ## The AFG has a minimum duty factor of 0.001%, so we need to check that we're within that 
+    ## constraint, otherwise it defaults to 50% duty factor which is bad
+    ## The 
+    def checkParameters(self, pulse_par_dict):
+
+        pw = pulse_par_dict["pw_us"] * 1e-6
+        ws = 1./pulse_par_dict["f_Hz" ]
+        df = 100.0 * pw/ws
+        ok = (df >= 0.000999)
+        pw = (0.001/100.0) * ws
+        return ok, pw*1e6
+
+    ## Set up a triggered output where the number of pulses in a single burst fills a full second
+    def configureSource(self, pulse_par_dict, ch=1, confirm=True):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+        ch_str = "SOURce" + str(int(ch))
+
+        ## Send the commands to set up the source
+        self._sendCmd(ch_str+":FUNCtion PULSe"      , getResponse=False)
+        if confirm:
+            print("Function   :", self._sendCmd(ch_str+":FUNCtion?"))
+        self._sendCmd(ch_str+":BURSt:MODE TRIGgered", getResponse=False)
+        if confirm:
+            print("Burst  mode:", self._sendCmd(ch_str+":BURSt:MODE?"))
+        self._sendCmd(ch_str+":FREQuency:MODE FIXed", getResponse=False)
+        if confirm:
+            print("Freq   mode:", self._sendCmd(ch_str+":FREQuency:MODE?"))
+
+        ok, new_pw_us = self.checkParameters(pulse_par_dict)
+        if not ok:
+            print("Warning: duty factor set below minimum capability - reset to a pulse width of",new_pw_us,"us (minimum)")
+            pulse_par_dict["pw_us"] = new_pw_us
+
+        self.updateHiVoltage( pulse_par_dict["V_hi" ], ch=ch, confirm=confirm )
+        self.updateLoVoltage( pulse_par_dict["V_lo" ], ch=ch, confirm=confirm )
+        self.updateFrequency( pulse_par_dict["f_Hz" ], ch=ch, confirm=confirm )
+        self.updatePulseWidth(pulse_par_dict["pw_us"], ch=ch, confirm=confirm )
+        self.updatePulseDelay(pulse_par_dict["d_ms" ], ch=ch, confirm=confirm )
+
+        self._sendCmd(ch_str+":BURSt:TDELay MINimum", getResponse=False)
+        if confirm:
+            print("Burst delay:", self._sendCmd(ch_str+":BURSt:TDELay?"))
+
+        self._sendCmd(ch_str+":BURSt:STATe ON", getResponse=False)
+        if confirm:
+            print("Burst state:", self._sendCmd(ch_str+":BURSt:STATe?"))
+
+        self._sendCmd("TRIGger:SOURce EXTernal", getResponse=False)
+        if confirm:
+            print("Trigger source:", self._sendCmd("TRIGger:SOURce?"))
+
+        self._sendCmd("TRIGger:SLOPe POSitive", getResponse=False)
+        if confirm:
+            print("Trigger slope:", self._sendCmd("TRIGger:SLOPe?"))
+
+        return
+
+    ## Set up a continuous pulse output (no trigger)
+    def configureContinuousSource(self, pulse_par_dict, ch=1, confirm=True):
+        ## First check that the channel provided is okay
+        if not (ch==1 or ch==2):
+            print("Error:", ch, "is not a valid channel string. Options: 1, 2")
+            return
+        ch_str = "SOURce" + str(int(ch))
+
+        ## Send the commands to set up the source
+        self._sendCmd(ch_str+":FUNCtion PULSe"      , getResponse=False)
+        if confirm:
+            print("Function   :", self._sendCmd(ch_str+":FUNCtion?"))
+        self._sendCmd(ch_str+":FREQuency:MODE FIXed", getResponse=False)
+        if confirm:
+            print("Freq   mode:", self._sendCmd(ch_str+":FREQuency:MODE?"))
+
+        self.updateHiVoltage( pulse_par_dict["V_hi" ], ch=ch, confirm=confirm )
+        self.updateLoVoltage( pulse_par_dict["V_lo" ], ch=ch, confirm=confirm )
+        self.updateFrequency( pulse_par_dict["f_Hz" ], ch=ch, confirm=confirm, burst=False )
+        self.updatePulseWidth(pulse_par_dict["pw_us"], ch=ch, confirm=confirm )
+
+        self._sendCmd(ch_str+":BURSt:STATe OFF", getResponse=False)
+        if confirm:
+            print("Burst state:", self._sendCmd(ch_str+":BURSt:STATe?"))
+
+        return
+
+   
+    
