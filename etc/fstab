@@ -1,0 +1,18 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Fri Jul  9 18:00:59 2021
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/scientific-root /                       xfs     defaults        0 0
+UUID=5d1af489-9f21-4fd7-8344-ab432b3cc485 /boot                   xfs     defaults        0 0
+/dev/mapper/scientific-home /home                   xfs     defaults        0 0
+/dev/mapper/scientific-swap swap                    swap    defaults        0 0
+# fridge pc mounted disks
+//192.168.0.11/Log /mnt/fridge_log_old_fridge_computer cifs _netdev,x-systemd.automount,credentials=/root/creds_smb_library_core,uid=5000,gid=6000,file_mode=0777,dir_mode=0777,context="system_u:object_r:httpd_sys_content_t:s0" 0 0
+#//192.168.0.12/Files /mnt/fridge_log cifs _netdev,x-systemd.automount,credentials=/root/creds_smb_library_core,uid=5000,gid=6000,file_mode=0777,dir_mode=0777,context="system_u:object_r:httpd_sys_content_t:s0" 0 0
+//192.168.0.11/log-files /mnt/plc_log_old_fridge_computer cifs _netdev,x-systemd.automount,credentials=/root/creds_smb_library_core,uid=5000,gid=6000,file_mode=0777,dir_mode=0777,context="system_u:object_r:httpd_sys_content_t:s0" 0 0
+#//192.168.0.12/log-files /mnt/plc_log cifs _netdev,x-systemd.automount,credentials=/root/creds_smb_library_core,uid=5000,gid=6000,file_mode=0777,dir_mode=0777,context="system_u:object_r:httpd_sys_content_t:s0" 0 0
+//192.168.0.68/NexusData /mnt/NexusData cifs _netdev,x-systemd.automount,credentials=/root/creds_smb_library_core2,uid=5000,gid=6000,file_mode=0777,dir_mode=0777,context="system_u:object_r:httpd_sys_content_t:s0" 0 0

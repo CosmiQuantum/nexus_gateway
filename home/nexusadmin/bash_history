@@ -1,0 +1,1000 @@
+vncserver :1
+vncserver :4
+vncserver -list
+cd /home/nexusadmin/.vnc/
+ll
+vim xstartup
+vim xstartup.bak-2025-0509-v2 
+ll
+vim localhost.localdomain:1.log
+exit
+vncserver -list
+vncserver :01 -localhost -geometry 1900x1060
+vncserver -list
+vncserver :02 -localhost -geometry 1900x1060
+conda deactivate
+vncserver :02 -localhost -geometry 1900x1060
+cat /home/nexusadmin/.vnc/nexus-gateway.fnal.gov:02.log
+exit
+ll
+cd soft/
+ll
+cd slow_monitor_alarms/
+ll
+vim config_alarm.json 
+ls
+vncserver -list
+cd fridge_alarm_code/
+ls
+vim config_alarm.json 
+exit
+vncserver :01 -localhost -geometry 1900x1060
+vncserver -list
+exit
+exit
+cd soft/slow_monitor_alarms/
+ll
+vim config_alarm.json 
+exit
+ls
+exit
+cd soft/slow_monitor_alarms/
+vim config_alarm.json 
+exit
+cd soft/slow_monitor_alarms/
+vim config_alarm.json 
+exit
+/home/RFSwitchCtrl/
+cd \home\RFSwitchCtrl
+ls
+cd ..
+ls
+cd nexusadmin/
+ls
+cd NetDeviceCtrl/
+ls
+cd RFSwitchCtrl/
+ls
+./start_gui_nexus.py
+./run_rfswitch_gui_nexus.sh 
+./start_gui_nexus.py
+exit
+cd
+pwd
+ls
+cd qick
+ls
+cd Acquisition/
+ls
+cd ..
+ls
+cd NEXUS_sandbox/
+ls
+cd qick_rf216
+ls
+cd
+ls
+cd Documents/
+ls
+cd ..
+ls
+cd ..
+ls
+cd nexusadmin/
+ls
+cd qick
+ls
+cd qick
+ls
+cd ..
+cd NEXUS_sandbox/
+s
+ls
+cd Data
+ls
+exit
+cd fridge_alarm_code/
+vim config_alarm.json 
+exit
+cd fridge_alarm_code/
+vim config_alarm.json 
+exit
+cd ~/NetDeviceCtrl/
+ll
+cd LN2_data/
+ll
+exit
+cd fridge_alarm_code/
+vim config_alarm.json 
+ll ~
+cd ~/NetDeviceCtrl/
+ll
+cd fridge_alarm_code/
+cd ~/fridge_alarm_code/
+vim config_alarm.json 
+exit
+cd Documents/
+ls
+cd Data
+ls
+pwd
+exit
+ls
+exit
+vncserver -list
+exit
+vncserver -list
+exit
+vncserver -list
+ls
+cd NetDeviceCtrl/
+ls
+cd RFSwitchCtrl/
+ls
+./run_rfswitch_gui_nexus.sh 
+ll /dev | grep ACM
+sudo chmod a+rwx /dev/ttyACM0
+python
+/home/nexusadmin/anaconda3/bin/python
+kinit gbratrud@FNAL.GOV
+ssh -K xilinx@pynq216-3.dhcp.fnal.gov -L 5678:localhost:9090
+ping 192.168.0.41
+ssh -K xilinx@pynq216-3.dhcp.fnal.gov -L 5678:localhost:9090
+kinit gbratrud@FNAL.GOV
+ssh -K xilinx@pynq216-3.dhcp.fnal.gov -L 5678:localhost:9090
+git branch
+git status
+git add .
+git commit -m "Pushing latest version before run 33"
+git push
+git status
+get fetch origin
+git fetch origin
+git checkout acc_nexusrun31
+git checkout -b gb_nexusrun33
+git push -u origin gb_nexusrun33
+git status
+git add .
+git status
+git commit -m "Pushing version for initial NR33"
+git push
+git origin
+git fetch origin
+git checkout acc_quietrun7
+checkout -b gb_nexusquiet_r33
+git checkout -b gb_nexusquiet_r33
+push -u origin gb_nexusquiet_r33
+git push -u origin gb_nexusquiet_r33
+pwd
+git add .
+git status
+git commit -m "Initial NEXUS checkout"
+git push
+git status
+git add .
+git commit -m "Added punch out 2d plot"
+git push
+git status
+vncserver -kill :4
+ps -ef | grep Xvnc
+cd tmp
+ls
+cd /tmp
+ls
+cd
+rm -f /tmp/.X4-lock
+rm /tmp/.X11-unix/X4
+rm -f /tmp/.X11-unix/X4
+ls ~/.vnc
+vncserver -kill :4
+vncserver list
+vncserver -list
+conda deactivate
+vncserver :4 -bs
+vncserver -list
+exit
+pwd
+exit
+ls
+vim /home/nexusadmin/fridge_alarm_code/config_alarm.json 
+ll /dev | grep ACM
+python
+/home/nexusadmin/anaconda3/bin/python
+ls
+cd NetDeviceCtrl/
+ls
+cd RFSwitchCtrl/
+ls
+./run_rfswitch_gui_nexus.sh
+ssh -K xilinx@pynq216-3.dhcp.fnal.gov -L 5678:localhost:9090
+exit
+vim /home/nexusadmin/fridge_alarm_code/config_alarm.json
+exit
+vim /home/nexusadmin/fridge_alarm_code/config_alarm.json
+ls
+vim /home/nexusadmin/fridge_alarm_code/config_alarm.json
+ls
+cd ../
+ls
+cd LogData/
+ls
+cd ../
+ls
+cd kkennard/
+ls
+sudo cd kkennard/
+ls
+su - kkennard
+ls
+cd sysadmin/
+ls
+cd vnovati/
+ls
+cd LogData/
+ls
+cd LakeshoreData/
+ls
+cd ../
+ls
+cd CompressorData/
+ls
+cd ../
+ls
+cd ../
+ls
+sudo cd kkennard/
+ls
+sudo su - kkennard
+cd /mnt
+ls
+mkdir plc_log_old_fridge_computer
+sudo mkdir plc_log_old_fridge_computer
+ls
+vim /etc/fstab 
+sudo vim /etc/fstab 
+ls
+sudo mount -t cifs //192.168.0.11/log-files /mnt/plc_log_old_fridge_computer \
+sudo mount -t cifs //192.168.0.11/log-files /mnt/plc_log_old_fridge_computer -o credentials=/root/creds_smb_library_core,uid=5000,gid=6000,file_mode=0777,dir_mode=0777,vers=3.0,sec=ntlmssp,iocharset=utf8
+ls
+cd plc_log_old_fridge_computer/
+ls
+cd ../
+ls
+cd
+ls
+cd ../
+ls
+sudo su -u kkennard 
+sudo su - kkennard 
+vim /etc/fstab
+cd /mnt
+ls
+sudo mkdir fridge_log_old_fridge_computer
+ls
+sudo mount -t cifs //192.168.0.11/Log /mnt/fridge_log_old_fridge_computer -o credentials=/root/creds_smb_library_core,uid=5000,gid=6000,file_mode=0777,dir_mode=0777,vers=3.0,sec=ntlmssp,iocharset=utf8
+ls
+cd fridge_log_old_fridge_computer/
+ls
+cd ../
+vim /etc/fstab 
+sudo vim /etc/fstab 
+su - kkennard 
+cd 
+ls
+cd ../
+ls
+sudo su -u kkennard 
+sudo su - kkennard 
+l
+ls
+cd fridge_alarm_code/
+ls
+vim config_alarm.json 
+ls
+vim alarm_code.py 
+ls /mnt
+vim alarm_code.py 
+vim config_alarm.json 
+ls
+vim config_alarm_standard.json 
+vim alarm_code.py 
+vim alarm_reset.py 
+sudo vim /etc/fstab 
+ls
+cd ../
+ls
+cd fridge_alarm_code/
+vim alarm_code.py 
+sudo su - kkennard
+ls
+cd fridge_alarm_code/
+ls
+vim alarm_compressor_code.py 
+vim config_compressor_alarm.json
+ls
+cd /mnt/
+ls
+cd fridge_log_old_fridge_computer/
+ls
+cd ../
+ls
+crontab -e
+cat /usr/local/soft/pulse-tube_compressor/run_logger.sh
+cat /usr/local/soft/pulse-tube_compressor/compressorLogger.py
+q!
+cd /home/LogData/
+ls
+cd CompressorData/
+ls
+cat Compressor_251001.csv
+crontab -e
+vim /usr/local/soft/pulse-tube_compressor/run_logger.sh
+vim python /usr/local/soft/pulse-tube_compressor/compressorLogger.py
+vim /usr/local/soft/pulse-tube_compressor/compressorLogger.py
+cd /usr/local/soft/pulse-tube_compressor/
+ls
+vim testing.py
+pythin testing.py 
+python testing.py 
+vim /usr/local/soft/pulse-tube_compressor/run_logger.sh
+vim test_run_print.sh
+pwd
+vim test_run_print.sh
+vim /usr/local/soft/pulse-tube_compressor/run_logger.sh
+vim test_run_print.sh
+ls
+pwd
+vim test_run_print.sh
+l
+ls
+vim test_run_print.sh
+vim /usr/local/soft/pulse-tube_compressor/testing.py
+vim /usr/local/soft/pulse-tube_compressor/run_logger.sh
+mv testing.py compressorLogger_test.py
+ls
+mv test_run_print.sh run_logger_test.sh
+ls
+vim run_logger_test.sh 
+cd ../
+ls
+cd 
+ls
+cd fridge_alarm_code/
+ls
+cat config_compressor_alarm.json 
+q!
+cat config_compressor_alarm.json 
+ls
+cd /usr/local/soft/pulse-tube_compressor/
+ls
+vim turnOffComp.py 
+source run_logger_test.sh 
+vim run_logger_test.sh 
+vim /usr/local/soft/pulse-tube_compressor/compressorLogger_test.py
+ls
+source run_logger_test.sh 
+vim run_logger_test.sh 
+ls
+vim compressorLogger_test_continious.py 
+vim run_logger_test.sh 
+pwd
+vim run_logger_test.sh 
+source run_logger_test.sh 
+pwd
+vim run_logger_test.sh 
+vim compressorLogger_test_continious.py
+vim run_logger_test.sh 
+source run_logger_test.sh 
+ls
+vim compressor_data_20251001.csv 
+rm -r compressor_data_20251001.csv
+ls
+bash run_logger_test.sh & 
+ls
+ps aux | grep run_logger_test
+kill 23232
+ls
+ps aux | grep run_logger_test
+kill 24010
+ls
+vim compressor_data_20251001.csv 
+ls -l
+source run_logger_test.sh 
+ls
+vim compressor_data_20251001.csv 
+ls
+rm -r compressor_data_20251001.csv
+cd 
+ls
+cd fridge_alarm_code/
+ls
+vim alarm_compressor_code.py 
+vim Compressor_210806.csv 
+exit
+ps aux | grep run_logger_test
+ps aux | grep run_logger_test
+bash run_logger_test.sh & 
+ls
+cd /usr/local/soft/pulse-tube_compressor/
+ls
+bash run_logger_test.sh & 
+ls
+cat compressor_data_20251001.csv 
+ls
+vim DataLogger.py
+vim CompressorControl.py
+vim run_logger_test.sh 
+vim /usr/local/soft/pulse-tube_compressor/compressorLogger_test_continious.py
+vim CompressorControl.py
+vim CompressorControl_pratyush.py
+vim run_logger_test.sh 
+ps aux | grep run_logger_test
+cp run_logger_test.sh run_logger_test2.py
+vim run_logger_test2.py 
+mv run_logger_test2.py run_logger_test2.sh
+vim run_logger_test2.sh 
+ls
+vim compressorLogger_test.py 
+vim run_logger_test2.sh 
+vim compressorLogger_test.py 
+source run_logger_test2.sh 
+ls
+rm -r CompressorControl_pratyush.py*
+ls
+vim CompressorControl_pratyush.py
+source run_logger_test2.sh 
+ls
+ps aux | grep run_logger_test
+kill 5214
+ps aux | grep run_logger_test
+cd /usr/local/soft/
+ls
+cd pulse-tube_compressor/
+ls
+vim compressor_data_20251001.csv 
+ps aux | grep run_logger_test
+ls
+cd ../
+ls
+crontab -e
+vim /usr/local/soft/NetDeviceCtrl/run_LN2level.sh
+vim python3 /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+ls
+sudo su - kkennard 
+ls
+sudo su - kkennard 
+ls
+cd /usr/local/soft/pulse-tube_compressor/
+ls
+ps aux 
+ls
+vim compressor_data_20251002.csv 
+ps aux | grep run_logger_test2.sh
+pkill 5374
+ps aux | grep run_logger_test
+pkill 5448
+ps aux | grep run_logger_test
+pkill 5713
+ps aux | grep run_logger_test
+pkill 5737
+ps aux | grep run_logger_test
+pkill 5770
+ps aux | grep run_logger_test
+vim compressor_data_20251001.csv 
+rm -r compressor_data_20251001.csv 
+rm -r compressor_data_20251002.csv 
+ls
+cd /usr/local/soft/
+cd pulse-tube_compressor/
+bash run_logger_test.sh &
+ls
+ps aux | grep run_logger_test
+ls
+cd debug_compressor_data_file/
+ls
+cd ../
+ls
+ cd /usr/local/soft/pulse-tube_compressor/
+ls
+ps aux | grep run_logger_test
+kill 10780
+ps aux | grep run_logger_test
+kill 112948
+ps aux | grep run_logger_test
+kill 25039
+ps aux | grep run_logger_test
+ls
+cd debug_compressor_data_file/
+ls
+vim compressor_data_20251005.csv 
+ls
+crontab -e
+vim /usr/local/soft/pulse-tube_compressor/run_logger.sh
+crontab -e
+ls
+cd ../
+ls
+su - rgualtie 
+sudo su - rgualtie 
+ls
+cd ../
+ls
+su - nraha 
+sudo su - nraha 
+exit
+/home/nexusadmin/anaconda3/bin/python
+ls
+cd ../
+ls
+sudo su - kkennard 
+exit
+ls
+cd Documents
+ls
+cd Data/
+ls
+cd run34
+cd 4charge/
+cd readout_optimization/
+ls
+cd optimization_Q2/
+cd 2025-10-19_20-14-27/study_data/Data_h5/2D_Gain_Freq_Sweeps/
+pwd
+exit
+exiy
+exit
+exit'
+exit
+ping 192.168.0.45
+ping 192.168.0.44
+vncserver -list
+conda deactivate
+vncserver :4 -bs
+vncserver -list
+exit
+ezit
+exit
+ll /dev | grep ACM
+chmod a+rwx /dev/ttyACM0
+sudo chmod a+rwx /dev/ttyACM0
+python
+ls
+cd NetDeviceCtrl/RFSwitchCtrl/
+ls
+./run_rfswitch_gui_nexus.sh
+ping xilinx@pynq216-3.dhcp.fnal.gov
+ping pynq216-3.dhcp.fnal.gov
+ssh -K xilinx@pynq216-3.dhcp.fnal.gov -L 5678:localhost:9090
+kinit
+kinit gbratrud
+ssh -K xilinx@pynq216-3.dhcp.fnal.gov -L 5678:localhost:9090
+exit
+ls
+vim fridge_alarm_code/config_alarm.json 
+exit
+cd
+pwd
+cd
+ls
+cd Documents/GitHub/
+ls
+cd tprocv2_demos
+ls
+cd qick_tprocv2_experiments_mux
+ls
+python analysis_NEXUS_qspec.py 
+exit
+owd
+pwd
+pwd
+exit
+exi
+exit
+exi
+exit
+rxit
+exit
+cd Documents/GitHub/
+cd tprocv2_demos
+cd qick_tprocv2_experiments_mux
+python analysis_NEXUS_qspec.py 
+python analysis_NEXUS_tomo.py
+python analysis_NEXUS_qspec.py 
+python analysis_NEXUS_tomo.py
+python analysis_NEXUS_qspec.py 
+df -h
+cd
+cat /proc/sys/fs/inotify/max_user_watches
+ls
+cd Documents/
+ls
+cd Data
+ls
+cd ..
+cd GitHub/
+ls
+cd tprocv2_demos
+ls
+cd qick_tprocv2_experiments_mux
+ls
+python analysis_NEXUS_tomo.py 
+date
+python analysis_NEXUS_tomo.py 
+pwd
+ls
+date
+python analysis_NEXUS_tomo_h5.py 
+ls
+python analysis_nexus_tomo_h5.py 
+ls
+cd
+ls
+cd NetDeviceCtrl/
+ls
+cd NetDrivers/
+ls
+pwd
+ls
+cd /home/nexusadmin/NetDeviceCtrl/
+pip uninstall NetDrivers -y
+pip show NetDeviceCtrl
+pip uninstall NetDriversCtrl
+pip uninstall NetDeviceCtrl
+pip install -e .
+ls
+cd NetDrivers/
+ls
+vim E36300.py
+ls
+cd Documents/
+ls
+cd GitHub/
+ls
+cd qick
+cd ..
+cd tprocv2_demos
+ls
+cd qick_tprocv2_experiments_mux
+ls
+python analysis_NEXUS_tomo.py
+python analysis_nexus_tomo_h5.py
+exit
+rsync --version
+ssh-keygen -t ed25519
+whoami
+ssh-keygen -t ed25519
+ssh-copy-id figueroaphysics@129.105.72.43
+cd
+ll /dev | grep ACM
+sudo chmod a+rwx /dev/ttyACM0
+python
+ls
+cd NetDeviceCtrl/
+ls
+cd RFSwitchCtrl/
+ls
+./run_rfswitch_gui_nexus.sh 
+exit
+ls
+cd /home/nexusadmin/fridge_alarm_code 
+ls
+vim config_alarm.json 
+exit
+ping 192.168.0.25
+ping 192.168.0.45
+exit
+ll
+cd soft/slow_monitor_alarms/
+ll
+vim config_alarm.json 
+exit
+kinit gbratrud
+ssh -K xilinx@pynq216-3.dhcp.fnal.gov -L 5678:localhost:9090
+vim /home/nexusadmin/fridge_alarm_code/config_alarm.json 
+exit
+ping 10.0.0.45
+ip
+exit
+ls
+ls -l 
+cd NetDeviceCtrl/
+ls
+git status
+ls
+crontab -e
+vim  /usr/local/soft/NetDeviceCtrl/run_LN2level.sh
+ls
+vim LN2level_reader.py 
+vim LN2_all_fields.csv 
+cd LN2_data/
+ls
+cd ../
+ls
+vim LN2level_reader.py 
+vim LN2_data
+ls
+cd LN2_data/
+ls
+cd ../
+ls
+cd ../
+ls
+crontab -e
+vim /usr/local/soft/NetDeviceCtrl/run_LN2level.sh
+dwss /usr/local/soft/NetDeviceCtrl/
+ls
+cd NetDeviceCtrl/
+ls
+pwd
+cd /usr/local/soft/NetDeviceCtrl/
+ls
+cd LN2_data/
+ls
+cd ../
+ls
+cd ../
+ls
+cd 
+ls
+cd NetDeviceCtrl/
+ls
+pwd
+ls
+rm -r *.csv
+ls
+git status
+vim trial.py 
+ls
+rm -r LN2_data/
+ls
+git status
+rm -r All_fields.ipynb
+rm -r LN2_level_sensor.ipynb
+rm -r LN2level_reader.ipynb
+rm -r LN2level_reader.py
+rm -r trial.py
+ls
+git status
+exit
+ls
+cd NetDeviceCtrl/
+ls
+cd
+ls
+cd ..
+ls
+cd ..
+ls
+cd usr
+ls
+cd soft
+ls
+cd local
+ls
+cd soft
+ls
+cd NetDeviceCtrl
+ls
+cd NetDrivers
+ls
+git status
+git fetch
+git pull
+git pull origin main
+git clean -dn
+git reset --hard origin/main
+git status
+git fetch
+git branch
+git checkout AddingKeithley2400
+git branch
+sudo apt udate
+uname -a
+exit
+ls
+crontab -e
+vim /usr/local/soft/ln2_level_reader/ln2_level_reader.log
+crontab -e
+vim /usr/local/soft/NetDeviceCtrl/run_LN2level.sh
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+vim /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-13_LN2_level.csv 
+vim /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-12_LN2_level.csv 
+ls
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+ping 192.168.0.201
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+ls
+vim LN_reader_test.py
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+vim LN_reader_test.py
+python3 LN_reader_test.py 
+vim LN_reader_test.py
+python3 LN_reader_test.py 
+vim LN_reader_test.py
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+vim LN_reader_test.py
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+vim LN_reader_test.py
+python3 LN_reader_test.py 
+ls
+cd ..
+ls
+sudo cd nraha/
+ls
+cd nraha/
+sudo cd nraha/
+sudo -u nraha 
+sudo - nraha 
+ls 
+sudo su - nraha 
+ls
+cd nexusadmin/
+ls
+vim check_cron_jobs.sh 
+crontab -e 
+vim /usr/local/soft/NetDeviceCtrl/run_LN2level.sh
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+cat /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+python3 /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+python3 /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+python3 /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+vim /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-13_LN2_level.csv
+cat /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-13_LN2_level.csv
+crontab -e
+cat /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-13_LN2_level.csv
+cat /usr/local/soft/ln2_level_reader/ln2_level_reader.log 2
+ip route get 192.168.0.201
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+crontab -e
+cat /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-13_LN2_level.csv
+crontab -e
+cat /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-13_LN2_level.csv
+crontab -e
+sudo systemctl status cron
+cat /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-13_LN2_level.csv
+ps aux | grep LN2level_reader.py
+kill 31603
+ps aux | grep LN2level_reader.py
+cat /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-13_LN2_level.csv
+exit
+git status
+git add __init__.py
+git commit -m "Added Keithley2400 import to init file"
+git push
+ps aux | grep LN2level_reader.py
+cat /usr/local/soft/NetDeviceCtrl/LN2_data/2026-02-16_LN2_level.csv 
+ls
+python3 LN_reader_test.py 
+vim LN_reader_test.py 
+ps aux | grep LN2level_reader.py
+vim /usr/local/soft/NetDeviceCtrl/LN2level_reader.py
+crontab -e
+vim /usr/local/soft/ln2_level_reader/ln2_level_reader.log
+vim /home/nexusadmin/fridge_alarm_code/config_alarm.json 
+pwd
+cd ..
+cd home
+cd /
+ls
+cd home
+ls
+cd nexusadmin/
+ls
+cd NetDeviceCtrl/
+ls
+cd NetDrivers
+ls
+pwd
+cd Documents/
+cd tprocv2_demos
+ls
+cd GitHub/
+cd tprocv2_demos
+ls
+cd qick_demos_tprocv2/
+ls
+cd ..
+cd qick_tprocv2_experiments_mux
+ls
+python analysis_nexus_tomo_h5.py 
+python analysis_tomo_func_fit.py 
+python analysis_NEXUS_tomo.py
+python analysis_tomo_func_fit.py 
+python analysis_nexus_tomo_h5.py 
+python analysis_tomo_func_fit.py 
+python analysis_nexus_tomo_h5.py 
+python analysis_tomo_func_fit.py 
+python analysis_nexus_tomo_h5.py 
+pwd
+exit
+git status
+ls
+cd tprocv2_demos
+ls
+cd qick_tprocv2_experiments_mux
+ls
+git status
+git pull
+git stash pop
+gut status
+git status
+git push
+git checkout gb_nexusrun35
+git checkout origin/gb_nexusrun35
+git fetch
+git status
+git add *.md
+git add ../*.md
+git status
+git commit -m "Update README.md"
+git push
+git status
+git add ./bias_qubit_spec.py
+git add ./new_nexus_tomography.py
+git add ./run_biasspec.py
+git add ./setVoltBias.py
+git status
+git commit -m "Added control for Keithley 2400 in scripts"
+git push
+git status
+git add section_008_save_data_to_h5.py
+git status
+git commit -m "Added option to put timestamp in h5 folder name for RR saving"
+git push
+git status
+git add ./section_003_repeat_punchout_ge.py
+git add ./repeated_punchout.py
+git status
+git commit -m "Adding new scripts for repeated punchout"
+git push
+exit
+uname -a
+exit
+ls
+cd ../
+ls
+cd LogData/
+ls
+cd ../
+ls
+su - kkennard 
+sudo - su kkennard
+sudo su kkennard
+sudo su nraha/
+ls
+sudo su nraha/
+sudo su nraha
+sudo su rgualtie/
+sudo su rgualtie
+sudo su vnovati/
+sudo su vnovati
+sudo su sysadmin/
+sudo su sysadmin
+sudo su svc_library_core/
+sudo su svc_library_core
+exit
+vim /etc/fstab 
+ls
+vim check_cron_jobs.sh 
+source check_cron_jobs.sh 
+sudo source check_cron_jobs.sh 
+sudo check_cron_jobs.sh 
+crontab -e
+vim ~/.bash_profile 
+vim ~/.bashrc 
+which python
+vim /usr/local/bin
+cd /usr/local/bin
+ls
+cd ../
+ls
+cd soft/
+ls
+exit
+cat /etc/os-release
+rclone config
+ls
+sudo su rgualtie
