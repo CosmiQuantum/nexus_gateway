@@ -1,11 +1,3 @@
-# nexus_gateway
-Repo containing cronjobs, fstab, .k5login, alarm code and other relevant information for nexus-gateway
-
-Most of the relevant section of nexus-gateway has been uploaded to the following google drive: https://drive.google.com/drive/folders/1rPmb_m3x5zwTG6ZJgr5VWzUjG6R7olAr?usp=drive_link
-The github page doesn't have .ssh info of all the users in the /home directory
-
-
-
 # NEXUS Gateway Repository
 
 This repository contains the configuration, automation scripts, and operational components used for the NEXUS gateway system.
